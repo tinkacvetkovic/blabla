@@ -1,0 +1,129 @@
+/* CSS Document */
+
+*	{margin: 0; padding:0; border:0;}
+body {
+	background-image:url("../images/bg/bg3.jpg"); font-family: Arial; background-attachment: fixed;
+}
+#wrapper {width:900px;padding:20px 30px; background-color:#b89d6b;margin:auto;}
+
+#name {width:330px; float:left;margin:0 0 20px 0;}
+#name h1 {font-family: 'Engagement', cursive; font-size: 40px; font-weight:bold;}
+
+#topnav {width:550px;float:right;margin-top:15px; margin-bottom: 35px; font-family: 'Montserrat', sans-serif;}
+#topnav ul li {display:inline; margin-left: 15px; } /* li=list item=element liste*/
+#topnav ul {text-align: right} /*ul= unordered list=neuredjena lista */
+#topnav a {font-size: 15px; font-weight:bold; text-decoration:none; font-family: 'Montserrat', sans-serif; color:#000000; }
+#topnav a:link {color:#000;}
+#topnav a:hover {color:#C09754;}
+
+#content {width:510px;float:left; margin-top:30px;  font-family: 'Montserrat', sans-serif;}
+#content h1 {font-size:32px; margin: 0 0 15px 0; }
+#content h2 {font-size:24px; margin: 15px 0;}
+#content p {font-size:14px; line-height:150%; margin: 10px 0; font-family: 'Montserrat', sans-serif;}
+#content ul {margin:10px 0;}
+#content li {margin-left:30px;}
+
+#banner {clear:both; }
+
+#rightside {width:300px;float:right; margin-top: 30px; font-family: 'Montserrat', sans-serif;}
+#rightside h2 {font-size:24px; margin: 15px 0 15 0;}
+#rightside p {font-size:14px; line-height:150%; margin: 10px 0; font-family: 'Montserrat', sans-serif;}
+#rightside ul {margin:10px 0;}
+#rightside li {margin-left:30px;}
+
+#footer {clear:both; padding-top: 30px; text-align:center; font-family: 'Montserrat', sans-serif; line-height:150%;}
+#footer img {padding-top:20px;}
+
+.img-transition {transition:transform .5s;}
+.img-transition:hover {transform:scale(1.5);}
+
+.border {
+    display: block;
+    width: 80px;
+    height: 2px;
+    background: #f1cd8f;
+    margin: 20px auto;
+}
+
+
+.about h1 {
+   text-align: center; margin-top: 15px; font-family:'montserrat', sans-serif;
+}
+.pabout { width:550px;  margin: 15px auto; text-align: center; font-family:'montserrat', sans-serif; line-height:150%;}
+
+.img-vertical {
+	margin-left: 125px;
+}
+
+.img-vertical img {
+	width: 200px;
+	height: 200px;
+	margin-left: 10px;
+}
+
+.text-center { 
+	text-align: center;
+	font-family:'montserrat', sans-serif;
+	padding:20px 0 0 0;
+}
+.img-chefs {
+	margin-left: 50px;
+}
+
+.img-chefs img {
+	width: 250px;
+	height: 370px;
+	margin-left: 10px;
+}
+
+.pchefs { width:750px;  margin: 15px auto; text-align: center; font-family:'montserrat', sans-serif; line-height:150%;}
+
+
+
+.contact-section{
+	
+	padding: 20px 0;
+}
+
+
+
+.contact-form{
+  max-width: 500px;
+  margin: auto;
+  padding: 0 10px;
+}
+
+.contact-form-text{
+  display: block; /*Приказује елемент као блок елемент (попут <п>). Почиње на новој линији и заузима целу ширину*/
+  width: 100%;
+  box-sizing: border-box; /*prikaz diva u vidu boxa*/
+  margin: 16px 0;
+  border: 0;
+  background:#f1cd8f;
+  padding: 20px 40px;
+  outline: none;
+  color:#000000;
+  transition: 0.5s;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #000; 
+}
+textarea.contact-form-text{
+  resize: none;
+  height: 120px;
+
+}
+.contact-form-btn{
+  float: right;
+  border: 0;
+  background: #f1cd8f;
+  color: #fff;
+  padding: 12px 50px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.contact-form-btn:hover{
+  background: #000;
+}
+
